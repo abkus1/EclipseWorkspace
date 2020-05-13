@@ -1,0 +1,36 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ChromeBrowser {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.silentOutput","true");
+		System.setProperty("webdriver.chrome.driver", "/Users/abhaykushwaha/chromedriver");
+		WebDriver driver = new ChromeDriver();
+		/*System.out.println("Opening Facebook page.");
+		driver.get("https://facebook.com");
+		System.out.println("Clicking on email field and entering email-id.");
+		driver.findElement(By.id("email")).sendKeys("abhaylfs.lfs6@gmail.com");
+		System.out.println("Clicking on password field and entering password.");
+		driver.findElement(By.id("pass")).sendKeys("Pr0cess!@n");
+		System.out.println("Clicking on login button.");
+		driver.findElement(By.id("u_0_b")).click();
+		//driver.quit();*/
+		System.out.println("Opening youtube.");
+		driver.get("https://www.youtube.com");
+		System.out.println("Clicking Sign-in.");
+		driver.findElement(By.xpath("//ytd-button-renderer[@class='style-scope ytd-masthead style-suggestive size-small']//yt-formatted-string[@id='text']")).click();
+		System.out.println("Providing email-id.");
+		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("abkus7");
+		System.out.println("Clicking next.");
+		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
+		System.out.println("Providing password.");
+		//driver.findElement(By.xpath("//input[@name='password']")).sendKeys("P0ssess1@n");
+		driver.findElement(By.cssSelector("body.nyoS7c.UzCXuf.EIlDfe:nth-child(2) div.H2SoFe.LZgQXe.TFhTPc:nth-child(1) div.RAYh1e.LZgQXe.qmmlRd div.xkfVF div.Aa1VU div.JhUD8d.SQNfcc.vLGJgb div.zWl5kd div.DRS7Fe.bxPAYd.k6Zj8d div.pwWryf.bxPAYd:nth-child(2) div.Wxwduf.Us7fWe.JhUD8d div.WEQkZc div.bCAAsb section.aTzEhb div.CxRgyd div.SdBahf.VxoKGd:nth-child(4) div.eEgeR div.W498nc div.fdWl7b div.hDp5Db div.rFrNMe.ze9ebf.YKooDc.q9Nsuf.zKHdkd.sdJrJc div.aCsJod.oJeWuf div.aXBtI.I0VJ4d.Wic03c div.Xb9hP > input.whsOnd.zHQkBf")).sendKeys("P0ssess1@n");
+		System.out.println("Clicking next.");
+		driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click();
+		driver.quit();
+	}
+
+}
