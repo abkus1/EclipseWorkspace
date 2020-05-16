@@ -1,0 +1,6 @@
+package com.abkus1.training.testng;
+
+public class Snippet {
+	List<WebElement> all= driver.findElementsById("video-title");
+}
+

@@ -11,8 +11,8 @@ public class Basics1 {
 		k = i + j;
 		System.out.println("The sum of the numbers is " + k);
 		
-		Basics2 obj1 = new Basics2(); //declaring object for class Basics2
-		System.out.println(obj1.ValidateHeader());
+		//Basics2 obj1 = new Basics2(); //declaring object for class Basics2
+		//System.out.println(obj1.ValidateHeader());
 		
 	}
 
