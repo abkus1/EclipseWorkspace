@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63743" started-at="2020-05-16T20:26:15 IST" finished-at="2020-05-16T20:27:18 IST">
+  <suite name="Default suite" duration-ms="61649" started-at="2020-05-23T13:38:19 IST" finished-at="2020-05-23T13:39:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63743" started-at="2020-05-16T20:26:15 IST" finished-at="2020-05-16T20:27:18 IST">
+    <test name="Default test" duration-ms="61649" started-at="2020-05-23T13:38:19 IST" finished-at="2020-05-23T13:39:21 IST">
       <class name="com.abkus1.training.testng.YTVideoClick">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.abkus1.training.testng.YTVideoClick@30a3107a]" name="startBrowser" is-config="true" duration-ms="2558" started-at="2020-05-16T20:26:15 IST" finished-at="2020-05-16T20:26:17 IST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.abkus1.training.testng.YTVideoClick@30a3107a]" name="startBrowser" is-config="true" duration-ms="3368" started-at="2020-05-23T13:38:19 IST" finished-at="2020-05-23T13:38:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="validateGoogleId()[pri:0, instance:com.abkus1.training.testng.YTVideoClick@30a3107a]" name="validateGoogleId" duration-ms="60848" started-at="2020-05-16T20:26:17 IST" finished-at="2020-05-16T20:27:18 IST">
+        <test-method status="PASS" signature="validateGoogleId()[pri:0, instance:com.abkus1.training.testng.YTVideoClick@30a3107a]" name="validateGoogleId" duration-ms="57955" started-at="2020-05-23T13:38:22 IST" finished-at="2020-05-23T13:39:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateGoogleId -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.abkus1.training.testng.YTVideoClick@30a3107a]" name="closeBrowser" is-config="true" duration-ms="292" started-at="2020-05-16T20:27:18 IST" finished-at="2020-05-16T20:27:18 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.abkus1.training.testng.YTVideoClick@30a3107a]" name="closeBrowser" is-config="true" duration-ms="271" started-at="2020-05-23T13:39:20 IST" finished-at="2020-05-23T13:39:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
