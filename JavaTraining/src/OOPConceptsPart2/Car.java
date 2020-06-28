@@ -1,8 +1,8 @@
 package OOPConceptsPart2;
 
-public class Car extends Vehicle { //Has-a relationship
+public class Car extends Vehicle { //IS-a relationship
 	
-	public void start() {
+	public void start() {//Overridden method
 		System.out.println("Car----Start");
 	}
 	
