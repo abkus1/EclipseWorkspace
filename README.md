@@ -1,2 +1,0 @@
-# EclipseWorkspace
-My Eclipse Workspace
